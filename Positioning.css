@@ -1,0 +1,24 @@
+.positionFixed{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    padding: 50px;
+    position: fixed;
+
+}
+section {
+    width: 600px;
+    margin: 0 auto;
+}
+#relativePosition {
+    position: relative;
+    background-color: lightgray;
+    padding:50px;
+}
+.absoluteDiv {
+    width:100px;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+}
